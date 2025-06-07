@@ -30,6 +30,7 @@ div{
 }
 p{
     text-align:center;
+    margin: 19px;
     padding: 5px;
    
    
@@ -49,6 +50,7 @@ img{
     
 }
 li{
+   text-align: center;
     display:inline-flex;
     margin-top: 30px;
     margin-right: 40px;
@@ -75,4 +77,25 @@ a:hover{
 aside{
     text-align: right;
     margin-left: 15px;
+}
+h4{
+    position: center;
+}
+
+
+h2{
+    
+    text-align:center;
+    margin: 22px;
+}
+#quemSomos{
+    text-align: justify;
+   
+}
+div.missao{
+    text-align: justify;
+    
+}
+li.valores{
+    text-align: left;
 }
