@@ -28,6 +28,9 @@ div{
     text-align: left;
 
 }
+div.valores{
+    text-align: left;
+}
 p{
     text-align:center;
     margin: 19px;
@@ -82,7 +85,6 @@ h4{
     position: center;
 }
 
-
 h2{
     
     text-align:center;
@@ -98,4 +100,8 @@ div.missao{
 }
 li.valores{
     text-align: left;
+}
+dt{ text-align: left;
+    margin: 20px 10px 10px;
+
 }
