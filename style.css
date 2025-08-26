@@ -1,107 +1,96 @@
-.poppins-thin {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  text-decoration-line: line-through;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-body{
-    margin: 0;
-    padding: 0;
-    font-family:"Poppins", sans-serif ;
-}
-h1{
-    position: relative;
-    text-align: left;
-    margin-left: 15px;
-    font-size:50px;
-    font-family:"Poppins", sans-serif;
-}
-div{
-    border-radius: 15px;
-    background-color: rgb(236, 231, 231);
-    text-align:center;
-    margin: 19px;
-    padding-bottom: 40px;
-   
-}
-#div.parte01{
-    text-align: left;
-
-}
-div.valores{
-    text-align: left;
-}
-p{
-    text-align:center;
-    margin: 19px;
-    padding: 5px;
-   
-   
-   
-}
-#area03{
-    text-align: justify;
- 
 
 
+header{
+    min-height: 100px;
+    padding: 0px 0px ;
+    background-color: gray;
+
 }
-#parte02{
-    padding: 25px;
+header h1{
+    padding: 10px 0px;
+    text-align: center;
+    padding-top: 15px;
 }
-img{
-    text-align: left;
-    
-}
-li{
-   text-align: center;
-    display:inline-flex;
-    margin-top: 30px;
-    margin-right: 40px;
+header a {
     text-decoration: none;
+    color: black;
 }
-nav{
-    font-size: 18px;
-    margin: 18px;
-    padding: auto;
-    padding-bottom: 18px;
-    border-radius: 18px;
-    background-color: rgb(235, 231, 231);
+header a:hover{
+    color: black;
 }
-a{
-    color: white;
-    text-decoration: none;
 
+
+nav{ 
+    text-align: center;
+     background-color:rgb(110, 106, 106);
+     padding:10px 0px;
+    box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.212);
+
+}
+nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:none;
+    color: black;
+    padding: 10px 15px;
+    margin: 15px 15px;
+   
 }
 a:hover{
-   color: black;
-   transition: .7s;
-   transition: .7s;   
+    transition: .5s;
+    color: white;
+    background-color: rgba(158, 149, 149, 0.678);
+    font-weight: bold;
 }
-aside{
-    text-align: right;
-    margin-left: 15px;
+p{
+    text-align: justify;
 }
-h4{
-    position: center;
+main{
+    max-width: 1000px;
+    min-width: 600px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.199);
 }
-
-h2{
-    
-    text-align:center;
-    margin: 22px;
+main img{
+    min-width: 366px;
+    width: 100%;
+}
+main  p{
+    font-family:'Times New Roman', Times, serif;
+    text-indent: 30px;
+    line-height: 25px;
+    margin: 10px 0px 10px 0px;
+}
+main h3{
+    margin-top: 15px;
+    font-weight: lighter;
 }
 #quemSomos{
-    text-align: justify;
-   
+    height:340px;
 }
-div.missao{
-    text-align: justify;
+article > h3{
+    padding-bottom: 5px;
+    text-align: center;
+}
+main article{
     
+    margin: auto;
+   
+    padding:20px 150px;
 }
-li.valores{
-    text-align: left;
+footer{
+    height: 1em;
+    margin:auto;
+    text-align: center;
+    padding: 5px 10px 70px 10px;
+    background-color: gray;
 }
-dt{ text-align: left;
-    margin: 20px 10px 10px;
+footer h3{
+    margin-bottom: 8px;
+}
 
-}
