@@ -1,0 +1,1 @@
+Projeto elaborado como forma de exercitar os primeiros passos em HTML5 e CSS3, construindo um modelo de site, onde explorei diversas habilidades como: responsividade,navegação entre páginas,links externos,imagens,menu entre outros.
