@@ -11,29 +11,40 @@
     
    <header>
         <h1><a href="index.html">Transportadora Nova</a></h1>
+      </header>
             <nav>
                     <a href="index.html">Home</a>
                     <a href="quem-somos.html">Quem Somos</a>
                     <a href="missao.html">Missão</a>
                     <a href="contato.html">Contate-nos</a>
             </nav>
-    </header>
+  
     
         <main>
             <article>
-                <h3>Fale Conosco</h3>
-                <form action="">
-                        <label for="Nome">
-                        Nome:</label>
-                        <input type="text">
-                        <br>
-                        <label for="">Telefone:</label>
-                        <input type="number" name="telefone" class="contato"placeholder="Digite seu numero"><br>
-                        <label for="">E-mail:</label>
-                        <input type="email" placeholder="Informe o seu e-mail " class="contato"><br>
-                        <label for="">Assunto:</label>
-                        <input type="text" name="" class="contato">
-                </form>
+                <h3>Deixe seu currículo conosco</h3>
+                <form action="processa_formulario.php" method="post" id="contato">
+    
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                 <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                 <label for="telefone">Telefone:</label>
+                 <input type="tel" id="telefone" name="telefone" pattern="[0-9]{10,11}" required>
+
+                <label for="cargo">Cargo Desejado:</label>
+                <input type="text" id="cargo" name="cargo" required>
+
+                <label for="experiencia">Experiência Profissional:</label>
+                <textarea id="experiencia" name="experiencia" rows="4" required></textarea>
+
+                <label for="curriculo">Anexar Currículo (PDF):</label>
+                <input type="file" id="curriculo" name="curriculo" accept=".pdf" required>
+
+                <button type="submit">Enviar Candidatura</button>
+            </form>
             </article>
         </main>
     
