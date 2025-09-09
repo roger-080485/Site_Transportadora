@@ -30,9 +30,11 @@ body{
 
 
 header{
+    width: 100%;
     min-height: 100px;
     padding: 0px 0px ;
     background-image: linear-gradient(to bottom,var(--cor4),var(--cor3),var(--cor2));
+
 
 }
 header h1{
